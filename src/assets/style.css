@@ -243,6 +243,21 @@ footer ul {
   font-size: 3rem;
 }
 
+/*Transitions*/
+.fa-linkedin,
+.fa-github,
+.fa-envelope,
+.fa-square-github {
+  transition: transform 0.3s linear, color 0.5s linear;
+}
+
+.fa-linkedin:hover,
+.fa-envelope:hover,
+.fa-github:hover,
+.fa-square-github:hover {
+  transform: scale(1.25);
+}
+
 .tooltip {
   position: relative;
   display: inline-block;
